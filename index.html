@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>George William - Developer</title>
+</head>
+
+<body>
+  <!--  Preloader  ok-->
+    <div class="gw-preloader">
+        <div class="gw-preloader-inner">
+            <img src="images/preloading.png" width="650px" class="gw-mar-bottom-15" />
+            <p class="gw-text-light gw-mar-top-10 gw-text-center">Aguarde um pouquinho … Estou Codando </p>
+        </div>
+    </div>
+    
+<!--Fim do Preloader-->
+    <!--Modal-->
+    <div class="gw-overlay gw-toggle-modal"></div>
+
+    <div class="gw-modal gw-bg-black" id="gw-modal-orcamento">
+        <div class="gw-modal-header">
+            <h1 class="gw-title gw-text-red">
+                Solicite um orçamento
+            </h1>
+
+            <button class="gw-close-modal gw-toggle-modal">
+                X
+            </button>
+        </div>
+
+        <div class="gw-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="gw-text-light">Por favor informe os dados abaixo e eu entrarei em contato com você o mais
+                        breve
+                        possível.</p>
+                </div>
+            </div>
+            <div class="row gw-mar-top-15">
+                <div class="col-sm-12">
+                    <!--Formulario-->
+                    <form class="gw-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 gw-mar-bottom-15">
+                                <label for="Nome" class="gw-text-light">Nome</label>
+                                <input type="text" name="Nome" id="gw-nome" class="gw-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 gw-mar-bottom-15">
+                                <label for="Email" class="gw-text-light">Email</label>
+                                <input type="email" name="Email" id="gw-email" class="gw-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 gw-mar-bottom-15">
+                                <label for="Telefone" class="gw-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="gw-telefone" class="gw-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-6 gw-mar-bottom-15">
+                                <label for="Site" class="gw-text-light">Site</label>
+                                <input type="text" name="Site" id="gw-site" class="gw-field" />
+                            </div>
+                            <div class="col-sm-12 col-md-12 gw-mar-top-15 ">
+                                <label for="Mensagem" class="gw-text-light">Descreva abaixo o projeto na qual você
+                                    precisa de orçamento:</label>
+                                <textarea id="gw-mensagem" name="Mensagem" rows="8" class="gw-textarea"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-end gw-mar-top-15">
+                            <div class="col-sm-12 col-md-6">
+                                <button class="gw-btn gw-btn-large gw-btn-red gw-btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!--Fim do formulario-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim do modal-->
+<!--Menu acima de 970 pixos-->
+   
+    <!--Fim do menu-->
+    <!--Botão para contato -->
+    <div class="gw-contact-info gw-bg-black gw-text-light ">
+        <div class="gw-contact-info-inner">
+            <h2 class="gw-title gw-text-red">Contato</h2>
+            <p>georgedevper@gmail.com</p>
+            <p>+55 (00) 9 9999 8888</p>
+            <div class="gw-social-links">
+                <a href="#" class="gw-social">
+                    <img src="images/github.svg" alt="Instagram" />
+                </a>
+                <a href="#" class="gw-social">
+                    <img src="images/instagram.svg" alt="Twitter" />
+                </a>
+                <a href="#" class="gw-social">
+                    <img src="images/whatsapp.svg" alt="Dribbble" />
+                </a>
+            </div>
+        </div>
+        <div class="gw-corner">
+        </div>
+    </div>
+
+    <button class="gw-btn-contact"></button>
+    <!--Fim do botão para contato -->
+<!--conteudo principa do home -->
+    <div class="gw-page-wrapper">
+
+        <section class="gw-full-height gw-first-section" id="gw-home-presentation">
+            <header class="gw-topbar">
+                <div class="gw-logo">
+                    <img src="images/logo7.png"  width="900px" alt="Logo George William" />
+                </div>
+        
+                <nav class="gw-menu">
+                    <a href="#">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="#">News</a>
+                </nav>
+            </header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 gw-display-text">
+
+                        <h1 class="gw-title gw-text-red gw-title-xlarge">Olá!</h1>
+
+                        <p class="gw-text-light">Meu nome é <span class="gw-text-red">George William</span>, sou Desenvolvedor Web
+                            programando em <span class="gw-text-red">jarvascript e PHP</span>. Nulla vulputate, ex in
+                            tincidunt consequat, dui metus luctus purus, ut dapibus quam augue sit amet leo. Phasellus
+                            sit amet purus in elit efficitur viverra.</p>
+
+                        <button class="gw-btn gw-btn-large gw-btn-red gw-mar-top-15 gw-toggle-modal">solicite um
+                            orçamento</button>
+                    </div>
+                </div>
+               <!--seta com o scroll down-->
+               <a href="#gw-home-portfolio">
+                <div class="gw-scroll-down">
+                    <div class="gw-arrow-down">
+                        <img src="images/arrow-down.svg" alt="Role a Página" />
+                    </div>
+                </div>
+            </a>
+                <!--fim da seta com scroll down -->
+        </section>
+ <!--section do slider dos projetos-->
+        <section class="gw-full-height" id="gw-home-portfolio">
+            <!--parte da lateral do slider-->
+            <div class="container-fluid gw-no-padding">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="gw-portfolio-navigator">
+                            <div class="gw-navigator-counter">
+                                <span class="gw-text-red">01</span>
+                            </div>
+                            <nav class="gw-item-navigator">
+                                <a href="#" class="gw-item-active" data-nav="1"></a>
+                                <a href="#"   data-nav="2"></a>
+                                <a href="#" data-nav="3"></a>
+                                <a href="#" data-nav="4"></a>
+                                <a href="#" data-nav="5"></a>
+                                <a href="#" data-nav="6"></a>
+                              
+                            </nav>
+                            <div class="gw-items-next-prev gw-no-radius-left">
+                                <div class="gw-item-prev">
+                                    <ion-icon name="arrow-dropleft"></ion-icon>
+                                </div>
+
+                                <div class="gw-items-counter">
+                                    <span class="gw-current-slide">01</span>
+                                    /
+                                    <span class="gw-total-slide">06</span>
+                                </div>
+
+                                <div class="gw-item-next">
+                                    <ion-icon name="arrow-dropright"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--fim da parte da lateral do slider-->
+                <!--inicio do slider-->
+                    <div class="col-sm-10">
+                        <div class="gw-slider-container gw-full-height">
+                            <ul class="gw-slider-list gw-full-height">
+                                <li class="gw-slider-item gw-slide-active" data-slide="1">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light gw-fade-from-left">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">Projeto 1
+                                                    Website</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box gw-scale-right"></div>
+                                                <img src="images/breve.jpg" alt="Startup Rocketz"
+                                                    title="Startup Rocketz" class="gw-scale-up" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="gw-slider-item" data-slide="2">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">Projeto2
+                                            teste</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, assumenda.
+                                                </p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box"></div>
+                                                <img src="images/breve.jpg" alt="Manage It!" title="Manage It!" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="gw-slider-item" data-slide="3">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">Projeto3
+                                                    Teste</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ducimus?
+                                                </p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box"></div>
+                                                <img src="images/breve.jpg" alt="Vinyassa App" title="Vinyassa App" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="gw-slider-item" data-slide="4">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">projeto4
+                                                    teste</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, porro?
+                                                </p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box"></div>
+                                                <img src="images/breve.jpg" alt="Conteúdo é Rei!"
+                                                    title="Conteúdo é Rei!" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="gw-slider-item" data-slide="5">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">projeto5
+                                                    teste</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, exercitationem!</p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box"></div>
+                                                <img src="images/breve.jpg" alt="Controle Total"
+                                                    title="Controle Total" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="gw-slider-item" data-slide="6">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="gw-portfolio-item-info gw-text-light">
+                                                <h1 class="gw-title gw-title-large gw-mar-bottom-15">projeto6
+                                                    teste</h1>
+                                                <p class="gw-mar-bottom-30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, laborum.</p>
+                                                <button class="gw-btn gw-btn-large gw-btn-red">ver projeto</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="gw-portfolio-item-thumb">
+                                                <div class="gw-portfolio-item-box"></div>
+                                                <img src="images/breve.jpg" alt="Controle Total"
+                                                    title="Controle Total" />
+                                                <button class="gw-btn gw-btn-medium gw-btn-dark">visitar site <ion-icon
+                                                        name="share-alt"></ion-icon></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--fim do slider-->
+        </section>
+
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

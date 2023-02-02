@@ -1,0 +1,92 @@
+/*HOME
+#gw-project-list-section{
+
+*/
+.gw-project-list-offset-top{
+margin-top: 130px;
+
+}
+
+
+.gw-portfolio-list .gw-portfolio-item-thumb{
+    width: 100%;
+    display: table;
+    padding: 35px 0 19px 0;
+    position: relative;
+}
+
+.gw-portfolio-list  .gw-portfolio-item-box{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #2C2C2C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    transform-origin: right;
+}
+
+.gw-portfolio-list .gw-portfolio-item-thumb > button {
+    margin-top: 17px;
+    margin-right: 75px;
+    float: right;
+}
+
+
+.gw-portfolio-list .gw-portfolio-item-thumb img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: -25px;
+
+    transform-origin: right;
+}
+
+.gw-portfolio-list{
+    list-style: none;
+}
+
+.gw-portfolio-list .gw-portifolio-item{
+    margin-bottom: 100px;
+}
+
+
+.gw-portfolio-list .gw-portfolio-item-info {
+    width: calc(100% - 75px);
+  
+}
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(odd) .gw-portfolio-item-info{
+
+    text-align: right;
+    margin-top: 73px;
+
+}
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(even) .gw-portfolio-item-info{
+
+ margin-left: 105px;
+
+}
+
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(odd) .gw-portfolio-item-info button{
+
+    float: right;
+
+}
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(even) > .row{
+flex-direction: row-reverse;
+}
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(even) > .gw-portfolio-item-thumb button{
+float: left;
+margin-left: 75px;
+    }
+
+.gw-portfolio-list .gw-portifolio-item:nth-child(even) > .gw-portfolio-item-thumb img{
+left: 73px;
+            }
