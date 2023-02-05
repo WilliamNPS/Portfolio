@@ -244,7 +244,7 @@ p, label {
        background-color: #ff0000;
         color: #000;
         position: fixed;
-        right: 30px;
+        right: 90px;
         top: 30px;
         z-index: 1250;
         cursor: pointer;
