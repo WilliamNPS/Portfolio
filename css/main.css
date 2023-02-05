@@ -243,13 +243,14 @@ p, label {
         border: none;
        background-color: #ff0000;
         color: #000;
-
-        right: 30px;
+position: fixed;
+        right: 105px;
+        top: 20px;
         z-index: 1250;
         cursor: pointer;
         overflow-x: hidden;
-        left: 75%;
-        position: fixed; top: 20px; right: 50% ;
+    
+    
     }
 
     .gw-btn-menu-mob ion-icon{
