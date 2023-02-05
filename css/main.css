@@ -243,13 +243,14 @@ p, label {
         border: none;
        background-color: #ff0000;
         color: #000;
-        position: fixed;
+
         right: 30px;
         top: 30px;
         z-index: 1250;
         cursor: pointer;
         overflow-x: hidden;
         left: 75%;
+        position: fixed; top: 40; left: 60 ;
     }
 
     .gw-btn-menu-mob ion-icon{
@@ -1702,4 +1703,7 @@ p, label {
 }
 
 	
-body { overflow-x: hidden; }
+body { overflow-x: hidden; 
+
+
+}
