@@ -1,120 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+</div>
+</body>
+<html lang="pt-br">
+
 <head>
+    <link rel="shortcut icon" href="images/preloading.png" type="image/x-icon">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-
-    <title>Portfolio</title>
+    <title>George William - Developer</title>
 </head>
+
 <body>
-    <!--  Preloader  ok-->
     <div class="gw-preloader">
         <div class="gw-preloader-inner">
-            <img data-aos="fade-left" data-aos-offset="300" data-aos-offset="300" src="images/preloading.png" width="650px" class="gw-mar-bottom-15" />
-            <p class="gw-text-light gw-mar-top-10 gw-text-center">Aguarde um pouquinho … Estou Codando </p>
+            <img src="images/preloading.png" width="500px" class="gw-mar-bottom-15" />
+          
         </div>
     </div>
-    
-<!--Fim do Preloader-->
+
+    <div class="gw-menu-overlay gw-toggle-menu"></div>
+
+    <header class="gw-topbar">
+        <div class="gw-logo">
+            <img src="images/logo.png" alt="Logo George William Developer" />
+        </div>
+
+        <nav class="gw-menu">
+     
+            <ul class="menu">
+             
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Projetos</a>
+                    <ul class="submenu-1">
+                      
+                        <li><a href="portfolio1.html">Desenvolvimento Web</a></li>
+                        <li><a href="jogos.html">Jogos</a></li>
         
-<!--Menu acima de 970 pixos-->
-   
-    <!--Fim do menu-->
-    <!--Botão para contato -->
-    <div class="gw-contact-info gw-bg-black gw-text-light ">
+                    </ul>
+                </li>
+                <li><a href="sobre.html">sobre</a></li>   
+            </ul>
+                    
+                </nav>
+    </header>
+
+    <button class="gw-btn-menu-mob gw-toggle-menu">
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <nav class="gw-menu-mob gw-menu-is-closed">
+        <a href="index.html">Home</a>
+        <a href="portfolio1.html">Desenvolvimento Web</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <div class="gw-contact-info gw-bg-black gw-text-light">
         <div class="gw-contact-info-inner">
             <h2 class="gw-title gw-text-green">Contato</h2>
-            <p>georgedevper@gmail.com</p>
+            <p>geodev22@hotmail.com</p>
             <p>+55 (00) 9 9999 8888</p>
             <div class="gw-social-links">
                 <a href="#" class="gw-social">
-                    <img data-aos="fade-left" data-aos-offset="300" data-aos-offset="300" src="images/github.svg" alt="Instagram" />
+                    <img src="images/instagram.svg" alt="Instagram" />
                 </a>
                 <a href="#" class="gw-social">
-                    <img data-aos="fade-left" data-aos-offset="300" data-aos-offset="300" src="images/instagram.svg" alt="Twitter" />
+                    <img src="images/whatsapp.svg" alt="Whatsapp" />
                 </a>
                 <a href="#" class="gw-social">
-                    <img data-aos="fade-left" data-aos-offset="300" data-aos-offset="300" src="images/whatsapp.svg" alt="Dribbble" />
+                    <img src="images/github.svg" alt="github" />
                 </a>
             </div>
         </div>
         <div class="gw-corner">
         </div>
+
     </div>
 
-    <button class="gw-btn-contact"></button>
-    <!--Fim do botão para contato -->
-<!--conteudo principa do home -->
-<header class="gw-topbar">
-    <div class="gw-logo">
-        <img data-aos="fade-left" data-aos-offset="300" data-aos-offset="300" src="images/logo7.png"  width="900px" alt="Logo George William " />
-    </div>
+    <button class="gw-btn-contact">
 
-    <nav class="gw-menu">
-        <a href="index.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#">Sobre</a>
-        <a href="#">News</a>
-    </nav>
-</header>
+    </button>
+
     <div class="gw-page-wrapper">
-        <section class="gw-project-list-offset-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img src="images/kkk.png" alt="Joao Lemon Designer"
-                        title="Joao Lemon Designer" />
-                </div>
-                <div class="col-sm-5">
-                    <div class="row">
-                        <div class="col-sm-12 gw-mar-bottom-30">
-                            <h1 class="gw-title gw-title-klarge gw-text-light">
-                                George<span class="gw-text-red">William</span>
+        <section class="gw-section-offset-top gw-section-sobre">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4 order-2 order-lg-1 gw-avatar-sobre">
+                        <div class="gw-box-img img-animation">
+                            <img src="images/home.png" alt="George William Developer"
+                                title="George William developer" class="gw-img-responsive " />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-8 order-1 order-lg-2">
+                        <div class="gw-titulo-sobre gw-mar-bottom-30">
+                            <h1 class="gw-title gw-title-xlarge gw-text-light">
+                                George <span class="gw-text-red2">William</span>
                             </h1>
                         </div>
-                        <div class="col-sm-7 gw-text-light">
-                            <h4 class="gw-subtitle gw-text-red gw-mar-bottom-15">Um pouco sobre mim</h4>
-                            <p>Nulla pellentsque sed nulla vel iaculis. Pellentesque dignissim fringilla urna.
+                        <div class="gw-info-sobre gw-text-light">
+                            <h4 class="gw-subtitle gw-text-green gw-mar-bottom-15">Um pouco sobre mim</h4>
+                            <p>Nulla pellentesque sed nulla vel iaculis. Pellentesque dignissim fringilla urna.
                                 Nulla vulputate, ex in tincidunt consequat, dui metus luctus purus, ut dapibus quam
                                 augue sit amet leo. Phasellus sit amet purus in elit efficitur viverra. Cras
                                 fermentum velit sit amet odio lacinia, ut auctor leo suscipit. Ut malesuada ex ante,
                                 quis imperdiet dui luctus euismod. Ut quis dapibus lectus. Vivamus volutpat sapien a
                                 est auctor viverra.</p>
+
+
+                            <div class="gw-contact-info-inner gw-mar-top-30">
+                                <div class="gw-social-links-circle gw-mar-bottom-30">
+                                    <a href="#" class="gw-social gw-bg-green gw-text-black gw-mar-right-30">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                    <a href="#" class="gw-social gw-bg-green gw-text-black gw-mar-right-30">
+                                        <ion-icon name="logo-whatsapp"></ion-icon>
+                                    </a>
+                                    <a href="#" class="gw-social gw-bg-green gw-text-black gw-mar-right-30">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                    </a>
+                                </div>
+                                <p>geodev22@hotmail.com</p>
+                                <br />
+                                <p>+55 (00) 9 9999 8888</p>
+                            </div>
                         </div>
-                        <div class="col-sm-5">
-                            <h4 class="gw-subtitle gw-text-red gw-mar-bottom-15">Habilidades</h4>
-                            <ul class="gw-text-light">
-                                <li>Lorem ipsum dolor sit amet.</li>
-
-                                <li>Lorem ipsum dolor sit amet.</li>
-
-                                <li>Lorem ipsum dolor sit amet.</li>
+                        <div class="gw-premios-sobre">
+                            <h4 class="gw-subtitle gw-text-red2 gw-mar-bottom-15">Tecnologias</h4>
+                            <ul class="gw-text-light gw-page-list ">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                              
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-   
-</div>
-
-
-      
-
-       
+        </section>
+    </div>
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
+
 </html>
-<script>
-    AOS.init();
-  </script>
