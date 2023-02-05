@@ -606,7 +606,7 @@ p, label {
     }
 
     .gw-slider-list  .gw-portfolio-item-info{
-       width: 100%;
+       width: 70vh;
        display: table;
        margin-top: 15px;
        position: relative;
@@ -614,7 +614,7 @@ p, label {
    }
 
    .gw-portfolio-list  .gw-portfolio-item-info{
-        width: 100%;
+        width: 70vh;
    }
 
    .gw-slider-list .gw-portfolio-item-info p{
@@ -633,14 +633,14 @@ p, label {
    }
 
    .gw-slider-list  .gw-portfolio-item-thumb{
-       width: 100%;
+       width:70vh;
        display: table;
        padding: 30px 0 19px 0;
        position: relative;
    }
 
    .gw-portfolio-list  .gw-portfolio-item-thumb{
-    width: 100%;
+    width: 70vh;
     display: table;
     padding: 15px 0 19px 0;
     position: relative;
@@ -657,7 +657,7 @@ p, label {
     }
 
    .gw-slider-list  .gw-portfolio-item-box{
-       width: 100%;
+       width: 70vh;
        height: 100%;
        display: block;
        background-color: #2C2C2C;
@@ -669,7 +669,7 @@ p, label {
    }
 
    .gw-portfolio-list  .gw-portfolio-item-box{
-        width: 90%;
+        width:70vh;
         height: 100%;
         display: block;
         background-color: #2C2C2C;
@@ -689,7 +689,7 @@ p, label {
 
    .gw-portfolio-list  .gw-portfolio-item-thumb img   {
        width: 95vh;
-       max-width: 100%;
+       max-width: 70vh;
        height: auto;
        position: relative;
    }
@@ -697,6 +697,8 @@ p, label {
     /*----PORTFOLIO----*/
     .gw-section-offset-top {
         margin-top: 130px;
+        overflow: hidden;
+        
     }
 
     
