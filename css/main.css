@@ -139,6 +139,7 @@ p, label {
         top: 0;
         left: 0;
         background-color: #ff0000;
+        overflow-x: hidden;
     }
 
     .gw-modal {
