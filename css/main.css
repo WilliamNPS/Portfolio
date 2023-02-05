@@ -1700,3 +1700,6 @@ p, label {
 .dispaly-bloco{
     display: block;
 }
+
+	
+body { overflow-x: hidden; }
