@@ -244,7 +244,7 @@ p, label {
        background-color: #ff0000;
         color: #000;
         position: fixed;
-        right: 90px;
+        right: 30px;
         top: 30px;
         z-index: 1250;
         cursor: pointer;
@@ -974,7 +974,7 @@ p, label {
     .gw-slider-list  .gw-portfolio-item-thumb img   {
         width:  calc(100% + 45px);
         max-width: calc(100% + 45px);
-        left: -75px;
+        left: 75px;
     }
 
     .gw-slider-list .gw-portfolio-item-thumb > button{
@@ -988,7 +988,7 @@ p, label {
 
    .gw-portfolio-list .gw-portfolio-item:nth-child(odd) .gw-portfolio-item-info{
         text-align: right;
-        margin-top: 70px;
+        margin-top: 170px;
     }
 
     .gw-portfolio-list .gw-portfolio-item:nth-child(odd) .gw-portfolio-item-info button{
@@ -1029,13 +1029,8 @@ p, label {
     }
 
     .gw-portfolio-list .gw-portfolio-item:nth-child(even) .gw-portfolio-item-thumb button{
-        float: left;
+ 
         margin-left: 75px;
-    }
-
-    .gw-portfolio-list .gw-portfolio-item:nth-child(odd) .gw-portfolio-item-thumb button{
-        float: right;
-        margin-right: 75px;
     }
 
 
@@ -1071,8 +1066,6 @@ p, label {
         max-width: 100%;
         height: auto;
         position: relative;
-        left: -25px;
-    
         transform-origin: right;
     }
     
@@ -1086,7 +1079,7 @@ p, label {
     
     
     .gw-portfolio-list .gw-portfolio-item-info {
-        width: calc(100% - 75px);
+        width: calc(100% - 95px);
       
     }
     
