@@ -249,6 +249,7 @@ p, label {
         z-index: 1250;
         cursor: pointer;
         overflow-x: hidden;
+        left: 360px;
     }
 
     .gw-btn-menu-mob ion-icon{
@@ -262,9 +263,10 @@ p, label {
         background-color: #000;
         position: fixed;
         top: 0;
-        padding: 100px 30px 30px;
+        padding:  30px 30px;
         z-index: 1200;
         transition: all 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+       
         
     }
 
@@ -1695,4 +1697,6 @@ p, label {
 }
 
 
-
+.dispaly-bloco{
+    display: block;
+}
