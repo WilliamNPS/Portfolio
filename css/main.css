@@ -243,7 +243,7 @@ p, label {
        background-color: #ff0000;
         color: #000;
         position: fixed;
-        right: 90px;
+        right: 30px;
         top: 30px;
         z-index: 1250;
         cursor: pointer;
@@ -685,7 +685,7 @@ p, label {
    }
 
    .gw-portfolio-list  .gw-portfolio-item-thumb img   {
-       width: 100%;
+       width: 100vh;
        max-width: 100%;
        height: auto;
        position: relative;
@@ -730,6 +730,7 @@ p, label {
 
     .gw-section-sobre .container-fluid, .gw-section-sobre .container-fluid > .row {
         height: 100%;
+ 
     }
     
 
@@ -811,7 +812,7 @@ p, label {
         padding: 45px 0;
     }
 
- 
+
 
     /* Utilitarias */
     .gw-title-xlarge {
@@ -849,6 +850,9 @@ p, label {
         width: 370px;
     }
 }
+
+
+
 
 @media screen and (min-width: 576px){
 
