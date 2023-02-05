@@ -249,7 +249,7 @@ p, label {
         z-index: 1250;
         cursor: pointer;
         overflow-x: hidden;
-        left: 360px;
+        left: 75%;
     }
 
     .gw-btn-menu-mob ion-icon{
