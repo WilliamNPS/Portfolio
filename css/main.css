@@ -627,6 +627,7 @@ p, label {
 
    .gw-portfolio-list {
        list-style: none;
+       overflow: hidden;
    }
 
    .gw-slider-list  .gw-portfolio-item-thumb{
