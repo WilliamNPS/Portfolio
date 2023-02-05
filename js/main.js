@@ -58,5 +58,5 @@ var waypoint = new Waypoint({
   handler: function () {
     myScrollDown.classList.toggle("gw-fade-out");
   },
-  offset: "80%",
+  offset: "70%",
 });
