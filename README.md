@@ -1,6 +1,3 @@
-Entendi! Vou ajustar o README para refletir o que você precisa. Aqui está um modelo adequado para o seu repositório de site:
-
----
 
 # Meu Portfólio de Desenvolvimento Web
 
