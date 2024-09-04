@@ -106,7 +106,7 @@ p, label {
         height: 100vh;
         display: table;
         background-color: #111111;
-        border: 15px solid #000;
+        /* border: 15px solid black; borda da página*/
     }
 
     .gw-preloader {
@@ -1199,7 +1199,7 @@ p, label {
     ul.menu ul {
         position: absolute;
         display: none;
-        box-shadow: 3px 3px 30px red;
+      
         background-color: #000;
 
     }
@@ -1445,7 +1445,7 @@ p, label {
 .gw-btn-red2:hover {
     background-color: #000;
     color:#ff0000;
-    box-shadow: 3px 3px 30px #ff000067;
+  
 }
 
 .gw-btn-dark {
@@ -1457,7 +1457,7 @@ p, label {
 .gw-btn-dark:hover {
    background-color: #ff0000;
     color: #1C1C1C;
-    box-shadow: 3px 3px 30px #000000d3;
+  
 }
 
 /* CLASSES UTILITARIAS */
@@ -1510,7 +1510,7 @@ p, label {
 
 .gw-bg-black {
     background-color: #000;
-    box-shadow: 3px 3px 30px #ff0000;
+   
 }
 
 .gw-mar-15 {
@@ -1595,6 +1595,12 @@ p, label {
 
 
 
+.visualizarcor:hover {
+ color: black;
+}
+.visualizarcor {
+    color: red;
+}
 
 .gw-page-list {
     list-style: none;
